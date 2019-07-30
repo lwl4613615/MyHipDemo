@@ -65,6 +65,13 @@ void CustomPushButton::leaveEvent(QEvent *event)
     m_status = CustomPushButton::BtnStatus::NORMAL;
 }
 
+void CustomPushButton::setBtnBackground(const QString& path)
+{
+	m_imagePath = path;
+	// resize the button to fit the background picture.
+	setFixedSize(QPixmap(m_imagePath).size());
+}
+
 CustomPushButton::~CustomPushButton()
 {
 }

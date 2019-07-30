@@ -14,7 +14,7 @@ public:
 private:
     //拷贝构造函数
     CustomPushButton(const CustomPushButton&obj);
-    CustomPushButton&operator=(const CustomPushButton&obj);
+
 protected:
     //画板函数重载
     void paintEvent(QPaintEvent *event);

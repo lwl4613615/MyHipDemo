@@ -1,4 +1,17 @@
 <RCC>
-    <qresource prefix="MyHips">
+    <qresource prefix="/Background">
+        <file alias="main">Resource/images/BackGround/ea656b57de6d7039faf42588b7da4266.jpg</file>
+        <file alias="main1">Resource/images/BackGround/timg.jpg</file>
+    </qresource>
+    <qresource prefix="/SysButtons">
+        <file alias="close">Resource/images/SysButtons/close.png</file>
+        <file alias="close_hover">Resource/images/SysButtons/close_hover.png</file>
+        <file alias="close_pressed">Resource/images/SysButtons/close_pressed.png</file>
+        <file alias="menu">Resource/images/SysButtons/menu.png</file>
+        <file alias="menu_hover">Resource/images/SysButtons/menu_hover.png</file>
+        <file alias="menu_pressed">Resource/images/SysButtons/menu_pressed.png</file>
+        <file alias="min">Resource/images/SysButtons/min.png</file>
+        <file alias="min_hover">Resource/images/SysButtons/min_hover.png</file>
+        <file alias="min_pressed">Resource/images/SysButtons/min_pressed.png</file>
     </qresource>
 </RCC>
